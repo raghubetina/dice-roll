@@ -10,4 +10,8 @@ class DiceController < ApplicationController
   def homepage
     render({ :template => "dice_templates/home" })
   end
+
+  def one_twenty
+    render({ :template => "dice_templates/1d20" })
+  end
 end
